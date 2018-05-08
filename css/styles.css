@@ -1,0 +1,100 @@
+
+	* {
+	padding: 0;
+	margin: 0;
+	border: none;
+			}
+#left {
+	background: #8fcf0e;
+	height: 768px;
+	}
+	
+#under {
+	background: #fff;
+	height: 768px;
+	}
+.container-fluid {
+	width: 100%;
+}
+/*body {background: #f00;}*/
+.nav-container {
+	border-bottom: .5em solid #c9a300;;
+}
+.navbar-default {
+	background-color: white;
+	border: 0px;
+	padding-top: 15px;
+	color: black;
+}
+.logo {
+		background-color: white;
+		width: 75%;
+		position: absolute;
+		left: 12%;
+		top: 44%;	
+		border-top:10px solid #c9a300;
+		border-bottom:10px solid #c9a300;
+		padding: 50px;
+		z-index: 1;
+	}
+	
+	.text-center {
+		font-weight: 600;
+	}
+/*.flex-container {
+  display: flex;
+}*/			
+
+
+@media screen and (min-width:320px) and (max-width:767px){
+	/*This fixes the transparency issue*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+	z-index: 2;
+	position: relative;
+	background-color: #fff;
+	border-bottom: 10px solid #c9a300;
+
+}
+.navbar {
+	margin-bottom: 0;
+}
+	.logo {
+		top: 47%;		
+	}
+}
+@media screen and (min-width:768px){
+	#main-content {
+	padding: 0 50px; 
+	/*background: #f00;*/
+	/*max-width: 1024px;*/
+	box-sizing: border-box;
+	margin: 0 auto;}
+}
+
+/*@media screen and (max-width:767px){
+	
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   border-color: #e7e7e7;
+	z-index: 2;
+	position: relative;
+	background-color: #fff;
+	border-bottom: 10px solid #c9a300;
+
+}
+.navbar {
+	margin-bottom: 0;
+}
+	.logo {
+		background-color: white;
+		width: 75%;
+		position: absolute;
+		left: 12%;
+		top: 44%;	
+		border-top:10px solid #c9a300;
+		border-bottom:10px solid #c9a300;
+		padding: 50px;
+		z-index: 1;
+	}
+}
+*/
